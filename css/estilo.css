@@ -1,0 +1,136 @@
+body {
+    background-color: cornflowerblue;
+}
+
+header{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.txt_h2{
+    display: inline;
+    padding: 250px;
+}
+
+div {
+margin-left: -7.5px;
+
+width: 101%;
+height: 300px;    
+}
+
+#grad_01 {
+background-image: linear-gradient(to top, yellow, red);
+}
+
+
+#grad_02 {
+    background-image: linear-gradient(to bottom, gray, white, black);
+    }
+
+
+#grad_03 {
+    background-image: linear-gradient( 90deg, green, yellow, red);
+}
+
+#grad_04 {
+    background-image: radial-gradient( yellow, blue, orange, red);
+}
+
+#grad_05 {
+    background-image: linear-gradient( to right, red -20%, green, yellow, blue );
+}
+
+#grad_06 {
+    background-image: linear-gradient( to right, red 25%, green 25%, green 70%, yellow 70%, yellow 80%, blue 80%, blue );
+}
+
+#grad_07 {
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)
+}    
+
+#grad_08 {
+    background-image: linear-gradient( 115deg, #001669, #007296 1%, #007296 11%, #015673 15%, 
+    #000 23.57%, transparent 23.57%, transparent 100% ),
+	
+    linear-gradient( 109deg, transparent, #2d8427 23.57%, #205a06 41%, #000 45%,
+	transparent 45%, transparent 100% ),
+	
+    linear-gradient( 109deg, transparent, #e79a07 45%, #e79a07 50%, #e79a07 52%, 
+    #444 55%, transparent 45%, transparent 100% ),
+	
+    linear-gradient( 109deg, transparent, #288ab1 55%, #288ab1 68%,  #000 73%, 
+    transparent 73%, transparent 100% ),
+	
+    linear-gradient( 109deg, transparent, #de491e 73%, #de491e 100% )
+}
+
+#gif_01 {
+    height: 113vh;
+    background-image: url(../gif/gif_01.gif);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain;
+}
+
+#gif_02 {
+    height: 156vh;
+    background-image: url(../gif/gif_02.gif);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain;
+}
+
+#gif_03 {
+    height: 168vh;
+    background-image: url(../gif/gif_03.gif);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain;
+}
+
+#img_01 {
+    height: 1350px;
+    background-image: url(../img/img_01.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+
+#img_02 {
+    height: 1350px;
+    background-image: url(../img/img_02.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+#img_03 {
+    height: 100vh;
+    background-image: url(../img/img_03.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+#img_04 {
+    height: 1050px;
+    background-image: url(../img/img_04.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+#img_05 {
+    height: 1050px;
+    background-image: url(../img/img_05.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
